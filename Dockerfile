@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=calico/node-windows:v3.29.6
+ARG BASE_IMAGE=calico/node-windows:v3.29.6@sha256:3c38efeaf4be817a348219eeeea0a2b113066dfe6b03987ffff138f83a8d0e3f
 FROM ${BASE_IMAGE}
 
 # Replace confd scripts with keepOriginalNextHop support.
